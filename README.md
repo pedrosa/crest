@@ -1,11 +1,14 @@
 Projeto: Credenciamento de Streaming (CREST)
+
 Objetivo:
 Desenvolver um sistema de credenciamento eficiente para clientes interessados em se credenciar nos serviços de streaming especificados, garantindo a integridade e consistência das solicitações, notificando o cliente ao término do processo, e registrando todas as transações no banco de dados.
 Funcionalidades:
+
 Credenciamento de Cliente:
 O cliente solicita um pedido único de credenciamento.
 Inclusão dos serviços desejados (Netflix, Prime Video, Disney, Globo Play, HBO Max, Apple TV, Claro Video, Canto Karaoke, Telecine, Star +).
 Notificação ao cliente após a conclusão do credenciamento.
+
 Pré-Requisitos:
 ⦁	Tempo de resposta inferior a dois segundos.
 ⦁	Desfaz todo o processo se houver uma falha em uma solicitação.
@@ -15,6 +18,7 @@ Catálogos de Serviço:
 a.	Requisição com informação de URL.
 b.	Tratamento de resposta em outra API.
 c.	Utilização de RDP para aguardar resposta assíncrona.
+
 Banco de Dados:
 ⦁	MongoDB para armazenar dados de credenciamento e logs.
 
