@@ -33,9 +33,11 @@ Controle de Falhas:
 ⦁	Notificações em caso de falhas.
 ⦁	Registro de Solicitações:
 a.	Todas as solicitações e transações devem ser registradas no banco de dados como logs.
+
 Avaliação:
 ⦁	Implementação de Testes Unitários para garantir a robustez do sistema.
 ⦁	Adoção dos princípios SOLID para melhorar a manutenibilidade e extensibilidade.
 ⦁	Utilização de Clean Architecture para promover uma estrutura organizada e modular do código.
+
 Considerações Finais:
 O projeto visa criar um sistema de credenciamento eficiente, seguro e de fácil manutenção, utilizando tecnologias modernas e práticas de desenvolvimento de software. A estrutura do código deve ser limpa e organizada, seguindo as boas práticas de arquitetura e design. Testes unitários devem ser elaborados para garantir a qualidade e confiabilidade do sistema.
